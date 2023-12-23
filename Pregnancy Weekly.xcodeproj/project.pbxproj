@@ -12,6 +12,7 @@
 		C101363E2B36905800E9E471 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101363D2B36905800E9E471 /* ContentView.swift */; };
 		C10136402B36905A00E9E471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C101363F2B36905A00E9E471 /* Assets.xcassets */; };
 		C10136432B36905A00E9E471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10136422B36905A00E9E471 /* Preview Assets.xcassets */; };
+		C17478CA2B369C100045F637 /* WeekDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17478C92B369C100045F637 /* WeekDetails.swift */; };
 		C185B0632B36952600F10BBD /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B0622B36952600F10BBD /* AdBannerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		C101363D2B36905800E9E471 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C101363F2B36905A00E9E471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C10136422B36905A00E9E471 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C17478C92B369C100045F637 /* WeekDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDetails.swift; sourceTree = "<group>"; };
 		C185B05E2B3693B800F10BBD /* Pregnancy-Weekly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pregnancy-Weekly-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C185B0622B36952600F10BBD /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
 		DD34600261DDB2A17F2E710D /* Pods-Pregnancy Weekly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pregnancy Weekly.debug.xcconfig"; path = "Target Support Files/Pods-Pregnancy Weekly/Pods-Pregnancy Weekly.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		C185B05F2B36947A00F10BBD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C17478C92B369C100045F637 /* WeekDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				C185B0632B36952600F10BBD /* AdBannerView.swift in Sources */,
 				C101363E2B36905800E9E471 /* ContentView.swift in Sources */,
+				C17478CA2B369C100045F637 /* WeekDetails.swift in Sources */,
 				C101363C2B36905800E9E471 /* Pregnancy_WeeklyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
