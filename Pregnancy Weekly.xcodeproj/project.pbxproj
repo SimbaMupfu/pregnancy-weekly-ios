@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C78B5D2539C1307EFB48CE /* Pods_Pregnancy_Weekly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9735CEEB6754C12E2AE53662 /* Pods_Pregnancy_Weekly.framework */; };
+		C101363C2B36905800E9E471 /* Pregnancy_WeeklyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101363B2B36905800E9E471 /* Pregnancy_WeeklyApp.swift */; };
+		C101363E2B36905800E9E471 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101363D2B36905800E9E471 /* ContentView.swift */; };
+		C10136402B36905A00E9E471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C101363F2B36905A00E9E471 /* Assets.xcassets */; };
+		C10136432B36905A00E9E471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10136422B36905A00E9E471 /* Preview Assets.xcassets */; };
+		C185B0632B36952600F10BBD /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B0622B36952600F10BBD /* AdBannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9735CEEB6754C12E2AE53662 /* Pods_Pregnancy_Weekly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pregnancy_Weekly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A649CE1C9BC5F44E4C21631 /* Pods-Pregnancy Weekly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pregnancy Weekly.release.xcconfig"; path = "Target Support Files/Pods-Pregnancy Weekly/Pods-Pregnancy Weekly.release.xcconfig"; sourceTree = "<group>"; };
+		C10136382B36905800E9E471 /* Pregnancy Weekly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pregnancy Weekly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C101363B2B36905800E9E471 /* Pregnancy_WeeklyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pregnancy_WeeklyApp.swift; sourceTree = "<group>"; };
+		C101363D2B36905800E9E471 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C101363F2B36905A00E9E471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C10136422B36905A00E9E471 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C185B05E2B3693B800F10BBD /* Pregnancy-Weekly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pregnancy-Weekly-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C185B0622B36952600F10BBD /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		DD34600261DDB2A17F2E710D /* Pods-Pregnancy Weekly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pregnancy Weekly.debug.xcconfig"; path = "Target Support Files/Pods-Pregnancy Weekly/Pods-Pregnancy Weekly.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10136352B36905800E9E471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C78B5D2539C1307EFB48CE /* Pods_Pregnancy_Weekly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E9F9BA7009085BF0143B68A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD34600261DDB2A17F2E710D /* Pods-Pregnancy Weekly.debug.xcconfig */,
+				9A649CE1C9BC5F44E4C21631 /* Pods-Pregnancy Weekly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD05B74D78225E0A7B55BB68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9735CEEB6754C12E2AE53662 /* Pods_Pregnancy_Weekly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C101362F2B36905800E9E471 = {
+			isa = PBXGroup;
+			children = (
+				C101363A2B36905800E9E471 /* Pregnancy Weekly */,
+				C10136392B36905800E9E471 /* Products */,
+				5E9F9BA7009085BF0143B68A /* Pods */,
+				BD05B74D78225E0A7B55BB68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C10136392B36905800E9E471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10136382B36905800E9E471 /* Pregnancy Weekly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C101363A2B36905800E9E471 /* Pregnancy Weekly */ = {
+			isa = PBXGroup;
+			children = (
+				C185B0602B36949C00F10BBD /* Views */,
+				C185B05F2B36947A00F10BBD /* Models */,
+				C185B05E2B3693B800F10BBD /* Pregnancy-Weekly-Info.plist */,
+				C101363B2B36905800E9E471 /* Pregnancy_WeeklyApp.swift */,
+				C101363F2B36905A00E9E471 /* Assets.xcassets */,
+				C10136412B36905A00E9E471 /* Preview Content */,
+			);
+			path = "Pregnancy Weekly";
+			sourceTree = "<group>";
+		};
+		C10136412B36905A00E9E471 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C10136422B36905A00E9E471 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C185B05F2B36947A00F10BBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C185B0602B36949C00F10BBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C101363D2B36905800E9E471 /* ContentView.swift */,
+				C185B0622B36952600F10BBD /* AdBannerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C10136372B36905800E9E471 /* Pregnancy Weekly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10136462B36905A00E9E471 /* Build configuration list for PBXNativeTarget "Pregnancy Weekly" */;
+			buildPhases = (
+				F689CAA5E59EAFFB43CA3B30 /* [CP] Check Pods Manifest.lock */,
+				C10136342B36905800E9E471 /* Sources */,
+				C10136352B36905800E9E471 /* Frameworks */,
+				C10136362B36905800E9E471 /* Resources */,
+				D1929EF72DD695CC899B126F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pregnancy Weekly";
+			productName = "Pregnancy Weekly";
+			productReference = C10136382B36905800E9E471 /* Pregnancy Weekly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C10136302B36905800E9E471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C10136372B36905800E9E471 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C10136332B36905800E9E471 /* Build configuration list for PBXProject "Pregnancy Weekly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C101362F2B36905800E9E471;
+			productRefGroup = C10136392B36905800E9E471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C10136372B36905800E9E471 /* Pregnancy Weekly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10136362B36905800E9E471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10136432B36905A00E9E471 /* Preview Assets.xcassets in Resources */,
+				C10136402B36905A00E9E471 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1929EF72DD695CC899B126F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pregnancy Weekly/Pods-Pregnancy Weekly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pregnancy Weekly/Pods-Pregnancy Weekly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pregnancy Weekly/Pods-Pregnancy Weekly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F689CAA5E59EAFFB43CA3B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pregnancy Weekly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10136342B36905800E9E471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C185B0632B36952600F10BBD /* AdBannerView.swift in Sources */,
+				C101363E2B36905800E9E471 /* ContentView.swift in Sources */,
+				C101363C2B36905800E9E471 /* Pregnancy_WeeklyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C10136442B36905A00E9E471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C10136452B36905A00E9E471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C10136472B36905A00E9E471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD34600261DDB2A17F2E710D /* Pods-Pregnancy Weekly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pregnancy Weekly/Preview Content\"";
+				DEVELOPMENT_TEAM = TGLPB64TBB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pregnancy-Weekly-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "inc.sims.hustles.Pregnancy-Weekly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C10136482B36905A00E9E471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A649CE1C9BC5F44E4C21631 /* Pods-Pregnancy Weekly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pregnancy Weekly/Preview Content\"";
+				DEVELOPMENT_TEAM = TGLPB64TBB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pregnancy-Weekly-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "inc.sims.hustles.Pregnancy-Weekly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10136332B36905800E9E471 /* Build configuration list for PBXProject "Pregnancy Weekly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10136442B36905A00E9E471 /* Debug */,
+				C10136452B36905A00E9E471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10136462B36905A00E9E471 /* Build configuration list for PBXNativeTarget "Pregnancy Weekly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10136472B36905A00E9E471 /* Debug */,
+				C10136482B36905A00E9E471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C10136302B36905800E9E471 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Pregnancy_Weekly {
+  umbrella header "Pods-Pregnancy Weekly-umbrella.h"
+
+  export *
+  module * { export * }
+}
